@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:sep_exam/src/common/style/app_theme.dart';
 import 'package:sep_exam/src/features/home/screens/homescreen.dart';
-
 import '../l10n/generated/l10n.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: AppTheme.darkTheme,
       locale: Locale("en"),
       localizationsDelegates: [
         S.delegate,
