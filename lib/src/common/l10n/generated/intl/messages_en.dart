@@ -22,6 +22,29 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "home_screen": MessageLookupByLibrary.simpleMessage("Home Screen")
+        "Aggressive_Growth":
+            MessageLookupByLibrary.simpleMessage("Aggressive Growth"),
+        "BTCB": MessageLookupByLibrary.simpleMessage("BTCB"),
+        "Best_Projects": MessageLookupByLibrary.simpleMessage("Best Projects"),
+        "Bitcoin": MessageLookupByLibrary.simpleMessage("Bitcoin"),
+        "Coin_Lists": MessageLookupByLibrary.simpleMessage("Coin Lists"),
+        "December": MessageLookupByLibrary.simpleMessage("December 05"),
+        "Favorites": MessageLookupByLibrary.simpleMessage("Favorites"),
+        "For_You_Today": MessageLookupByLibrary.simpleMessage("For You Today"),
+        "Investing_Strategies":
+            MessageLookupByLibrary.simpleMessage("Investing Strategies"),
+        "Low_risk": MessageLookupByLibrary.simpleMessage("Low risk"),
+        "Stable_Income": MessageLookupByLibrary.simpleMessage("Stable Income"),
+        "Strategy_2022": MessageLookupByLibrary.simpleMessage("Strategy 2022"),
+        "The_Big_Long": MessageLookupByLibrary.simpleMessage("The Big Long"),
+        "Trending": MessageLookupByLibrary.simpleMessage("Trending"),
+        "View": MessageLookupByLibrary.simpleMessage("View"),
+        "Watchlist": MessageLookupByLibrary.simpleMessage("Watchlist"),
+        "home_screen": MessageLookupByLibrary.simpleMessage("Home Screen"),
+        "parti": MessageLookupByLibrary.simpleMessage("10,982 participants"),
+        "per_year": MessageLookupByLibrary.simpleMessage("per year"),
+        "percent": MessageLookupByLibrary.simpleMessage("6.24%"),
+        "price1": MessageLookupByLibrary.simpleMessage("\$16,963.58"),
+        "price1_per": MessageLookupByLibrary.simpleMessage("−0.12%")
       };
 }
